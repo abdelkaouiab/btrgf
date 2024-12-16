@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Image Preview</title>
+  <style>
+    #image {
+      width: 400px;
+      height: 300px;
+      border: 2px solid black;
+      background-image: url('');
+      background-size: cover;
+      background-position: center;
+      text-align: center;
+      line-height: 300px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .preview {
+      width: 100px;
+      height: 75px;
+      margin: 10px;
+      border: 1px solid black;
+    }
+  </style>
+</head>
+<body>
+  <h1>Interactive Image Preview</h1>
+  <div id="image">Hover over an image below to display here.</div>
+  <img class="preview" src="image1.jpg" alt="Description of Image 1">
+  <img class="preview" src="image2.jpg" alt="Description of Image 2">
+  <img class="preview" src="image3.jpg" alt="Description of Image 3">
+  <script src="script.js"></script>
+</body>
+</html>
